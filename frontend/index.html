@@ -11,27 +11,37 @@
 </head>
   <body>
     <h1>Sistema de Pesquisa de Nomes</h1>
+    
     <div class="principal">
       <div class="box">
         <h2>Pesquisa de Usuários</h2>
-        
         <input 
         type="text"
-        id="inputText"
+        id="inputName"
         placeHolder="Busca"/>
         
         <button class="buscar">Buscar</button>
 
         <div class="retornoUsuario">
           <span class="texto">Nenhum usuário filtrado</span>
+          <form>
+            <div id="names">
+              <h3>Usuários Encontrado</h3> 
+            </div>
+          </form>
         </div>
 
         <div class="retornoDados">
-          <span class="texto">Nada a ser exibido</span>
+          <span class="texto">Nada a ser exibido</span>    
+          <form>
+            <div id="dados">
+              <h3>Estatísticas dos Usuários</h3>
+            </div>
+            
+          </form>
         </div>
-      </div>
-    
-    </div>
+      </div>   
+    </div>  
     <script defer src="js/script.js"></script>
   </body>
 </html>
